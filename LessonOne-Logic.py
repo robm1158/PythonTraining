@@ -18,6 +18,7 @@ elif(i == 0):
     print("i = 0")
 else:
     print("nothing = nothing")
+    
 
 # If you are fimilar with other programming lang. you will notice the lack of ; that is generally
 # present. Python is different it does not care about EOLC (end of line chars) that the ; represents
@@ -41,10 +42,13 @@ while(i < 10):
     print(i)
     i = i + 1
 
+
 index = [1,2,3,4,5,6,7]
 print("for loop")
 for x in index:
     print(x)
+
+
 
 # Some things you should take note of in this are what is actually printed to the screen for each loop given the indexes
 # also notice the syntax of the for loop the 'in' and understand how that works. This is the OOP side of python which will
@@ -53,3 +57,8 @@ for x in index:
 
 # Now time for you to try. For this exercise create a list with five words dog, cat, fox, bird, wolf. Then iterate through the
 # list and match the word fox. When you match the word fox print out "I found it!"
+
+index = ["dog","cat","fox","bird","wolf"]
+for x in index:
+    if (x == "fox"):
+        print("I found it!")
